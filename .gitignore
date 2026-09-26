@@ -4,3 +4,5 @@
 __pycache__/
 *.pyc
 .DS_Store
+# Local reconstruction contains decoded third-party programs; do not redistribute.
+results/oncb-reconstruction.json

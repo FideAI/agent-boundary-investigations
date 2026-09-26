@@ -1,6 +1,6 @@
 # Ordinary services, consequential actions: methods and results
 
-Fide AI · September 26, 2026 · local review edition
+Fide AI · September 26, 2026 · public working research; independent human review pending
 
 ## Contribution and scope
 
