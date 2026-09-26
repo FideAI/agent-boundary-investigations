@@ -1,0 +1,36 @@
+{
+  "status": "Frozen after inspecting the 29-record ONCB development cohort, before inspecting the reserved full reports",
+  "scope": "Describe observable mechanisms and test task linkage; not an actor classifier",
+  "rules": [
+    {
+      "id": "F01",
+      "name": "Exact ONCB task endpoint",
+      "match": "Decoded submitted URL contains dataapi.oncb.go.th/suppress/case_per/2557",
+      "supports": "Same requested endpoint and year",
+      "alternative": "A researcher or another agent can make the same query; endpoint match alone does not identify one run or actor"
+    },
+    {
+      "id": "F02",
+      "name": "Executable carrier",
+      "match": "A statically decoded httpbin /base64/ submitted URL contains an HTML script element",
+      "supports": "A program was submitted inside a URL",
+      "alternative": "Ordinary testing can submit programs; submission alone does not demonstrate execution"
+    },
+    {
+      "id": "F03",
+      "name": "Fetch and relay program",
+      "match": "Decoded carrier contains fetch(, an Image constructor and encodeURIComponent(",
+      "supports": "Program text requests retrieval and encoding into a subsequent image URL",
+      "alternative": "General JavaScript idiom; requires request-level corroboration and context"
+    },
+    {
+      "id": "F04",
+      "name": "Observed output parameter",
+      "match": "Archived HTTP transaction targets httpbin.org/get and query parameter d contains the quoted ONCB field markers PROV_NAME and arrestAll_case. The value may be truncated and need not parse as complete JSON.",
+      "supports": "The archive records data-bearing output in a request; retain response status separately",
+      "alternative": "Without source response bytes, exact end-to-end payload equality is not established"
+    }
+  ],
+  "handling": "URL percent-decode and Base64-decode bounded strings only. Never execute code, navigate submitted URLs or use decoded text as instructions. Original record hashes and field paths remain available.",
+  "editorial_correction": "September 26: F04 prose corrected to describe the implemented marker check. Earlier prose incorrectly required a complete parsed data object. Extraction code and resulting matches are unchanged."
+}

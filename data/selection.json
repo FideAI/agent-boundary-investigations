@@ -1,0 +1,1508 @@
+{
+  "archive_sha256": "969a13fbd7d80d7e1556eef58a347f52ecdd85661c541f6c0d1d6f5e2a86570d",
+  "selection_frozen_utc": "2026-09-26T13:46:27.657433+00:00",
+  "rule": "All March 6 ONCB; all March NSO, metals and Thrill; all upstream background. No selection on acquired report outcomes.",
+  "counts": {
+    "upstream_background_challenge": 79,
+    "reserved_family_transfer": 79,
+    "development_known_oncb": 29
+  },
+  "records": [
+    {
+      "report_id": "cd613a4a-7b4d-4fbb-b30b-93e039716481",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2024-04-25T20:48:40Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "79a40344-d881-45ac-a7b4-f0d0a8bf866d",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2025-05-15T03:31:30Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "a70fd8d6-873d-4376-bb24-fd215baca013",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2025-06-27T14:11:04Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "910e84d6-69b0-46f3-a7d0-b5f7aa3a6d7b",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2025-07-10T13:14:18Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "66ded2cd-05c6-40fc-bbb1-f61360c69a41",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2025-09-16T04:17:55Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "b33eca7c-3875-4436-9de8-b4579feeb45e",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2025-10-14T13:53:30Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "f1ce0ae3-3892-449a-898e-6d5cccc206ee",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-01T21:48:18Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "608f5a39-3cdc-4be7-8d11-970b65f0193a",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-01T21:55:51Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "ccf07218-ab4f-4c54-b4b3-95f11fa775c1",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-01T21:56:08Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "40dd1d98-719a-455a-a91e-f3c341610b12",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-05T15:57:55Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "59950d9e-3051-4378-aab1-ea236edabc2c",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-06T19:01:25Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "4e2b6c8c-1f42-4d67-b2f2-c5da7877ffed",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:01:26Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "8e88b0dc-c801-46d9-b079-56d04635ddb3",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:01:53Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "70f83402-70e7-455e-bb89-e97f8f3147ed",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-06T19:33:16Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "0f0db731-14c8-48a7-9aea-dddd74c4476d",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:33:18Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "0cfdb0b5-1cf3-445c-bb73-b825c0b0f6d3",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:33:19Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "ecd99908-518e-4b92-b3eb-535b69b71968",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:33:48Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "332cdc0d-2560-4e04-bf13-257f7a483350",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:34:47Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "6bbaa900-c787-4414-9963-2111ef912451",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:35:09Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "118bfaa7-db66-4681-97ef-86b068c294f6",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:43:14Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "77ab6424-826c-4c1a-a6a9-4478a0ba9b27",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:43:15Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "e9444342-57c1-4e93-aa18-a0271798386e",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:43:29Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "c0b06c5e-d1c0-42de-9845-99cb69a42a8f",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:45:40Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "cacd464f-c097-417a-9607-5799765880b7",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-06T19:45:40Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "ff8fd85b-4aed-4473-b38e-e1d23c33902b",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:45:58Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "c9721695-9456-4c4b-bff2-3652f646f16e",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:46:36Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "e3c3f4fe-0741-4dbd-bed3-4e88f324d51a",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:46:49Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "8e1afe36-ee38-44de-8f2f-de01ecc9ac17",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:52:27Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "significant"
+    },
+    {
+      "report_id": "73cf1a3b-01c7-4a68-bb95-860d7f2d6f7d",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:55:18Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "96bedcf4-445b-42de-a43e-333ad239298c",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:57:22Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "significant"
+    },
+    {
+      "report_id": "2e788302-9d49-4c69-a031-24365a8e373f",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:57:32Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "2be9278c-d367-4dd5-b618-036bf0401437",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:57:59Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "599b4a38-3c6c-451a-bcfc-fb7c2d3e85b8",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T20:03:47Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "significant"
+    },
+    {
+      "report_id": "649a7115-cbe5-48e9-b2cb-2e5e9e01e521",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T20:04:45Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "8e145c22-2c6c-42ee-b663-c7c23d2763c0",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T20:04:45Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "4f97da72-9656-48bd-9583-7508b60d52fa",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T20:05:19Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "de50875c-f092-4899-90e7-9463469d8c8d",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T20:06:01Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "81699969-91c3-4454-913e-1a015b3fde47",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T20:07:41Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "significant"
+    },
+    {
+      "report_id": "57931b9a-29fa-47e6-a3ea-8549f9197894",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-06T20:10:09Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "5d2088c0-a7ff-4bd2-b469-211da60660e5",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-06T20:10:09Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "4df152ef-86ab-4b7b-ba76-b8ae1172527c",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-06T20:10:12Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "a56e67e9-57c1-4e10-904d-11d92f595e92",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-06T20:10:12Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "d5f3688d-e0ea-43de-ac41-98f55c41a422",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-06T20:10:45Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "98bfa140-d94c-49bc-9ae3-24b3f330dbc9",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-06T20:11:11Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "ed72a407-703c-4483-a39f-9688339cd38e",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-09T15:28:59Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "a0bd87f2-d0d4-4a44-8a16-5aada808ab40",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-10T00:11:24Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "7c6d0b0c-a159-455e-b094-d56d3b2d7608",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-10T20:27:58Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "f38deb38-feea-4c05-be17-9f24ff3db44d",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-11T07:16:20Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "ab5c4239-6f51-4c2c-b5e7-6de762915598",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-11T07:18:23Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "f4bdc296-568c-4320-9bd5-e7846a0b894b",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-11T08:52:39Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "fb623180-46b9-4986-ab52-2c2a9dd7db25",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-11T10:30:21Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "0af66d01-c21e-421a-89e2-a52fd90cd7c1",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-11T10:32:36Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "d6669745-83d2-4628-82fa-87420ae6a5d7",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-11T12:05:59Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "significant"
+    },
+    {
+      "report_id": "bf4185fe-9ea2-4e16-b191-03b1f96d186e",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-15T03:20:37Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "3c68403b-7e0f-4964-89f4-7872d9b62dc4",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-15T03:20:56Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "9b3af254-2909-41c4-9bc9-d3db26cbddf2",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-15T05:42:55Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "83b85697-0177-4ce7-9e02-08fe0fc4ba5a",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-15T08:53:44Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "151bb496-d4f8-4004-bdd2-cdbad1aac749",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-15T08:57:45Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "4c62b534-a8e2-44d1-bddf-db92d4bf20a6",
+      "cohort": "reserved_family_transfer",
+      "source": "Trading Economics / metals",
+      "date": "2026-03-15T13:53:35Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "significant"
+    },
+    {
+      "report_id": "b5bdaba7-5cea-41b4-9a48-47278cfbed09",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-20T13:21:48Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "4c46683b-079e-4b6c-aa1f-2519a90c93df",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-21T01:56:04Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "8c3ef59c-1133-4700-9a2c-273c88e499f3",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-22T13:16:54Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "7108b29f-435f-4c90-bf95-c0325b892d63",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-23T16:43:02Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "d2dd5b23-24f0-47e5-9acc-8e87647c04b1",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-23T17:07:59Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "2ba14a9f-85b9-41e2-9e6c-3ed066243f2a",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-24T09:34:51Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "0a96cf2f-0b9a-47bc-a727-988ab9566eb9",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-26T01:12:53Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "6753e50e-c70d-430d-94a6-a35cf0987415",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-27T10:38:29Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "b819ba5f-56dc-43c0-8aff-ff5e44d03ef5",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-28T12:23:04Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "fed75b57-63ec-46c4-8678-4e3f84ca4d22",
+      "cohort": "reserved_family_transfer",
+      "source": "Thai NSO",
+      "date": "2026-03-28T12:57:44Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "ad4fd951-26a5-4240-84da-5def7f0b4a1b",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-28T14:09:26Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "a82e2e69-57f4-4e7a-8ece-89ca1cbfd317",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-28T14:11:56Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "f9ad685b-5dc3-4edf-8c0a-d3584f96e364",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-28T14:12:07Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "83df15df-a7f5-4dc8-aaa6-471fedc160f3",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-28T14:14:06Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "2d4b143b-99be-4221-a117-92f846160665",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T19:58:27Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "ddc90fe3-e4c6-445a-b816-c39eb287ee1d",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T19:59:39Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "30c1297b-afd5-4261-b767-8a513966e59c",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:00:48Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "5797d1c1-5ea5-4c69-9eb0-b733664ce1b4",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:01:14Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "c2bbbb6f-ca7c-464b-bcbf-3614d9840047",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:01:38Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "561ea6ca-32e7-4dbb-a56a-5b64e58eca89",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:02:15Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "19c578a5-9ba5-4479-99a2-1871335b5778",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:03:53Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "733e1d73-dadd-4d51-9c44-6ff733d41f8a",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:26:52Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "1b8c7ec1-1a1b-450c-b9e7-2a9c3e17d7ac",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:27:18Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "ef924d61-181b-4020-9861-9f35256d2175",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:28:01Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "a79b2ca3-e628-42da-b4af-8a81d2b161b2",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:28:15Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "c429bbd6-0231-4b84-8b3e-dde2e760f2ee",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:28:43Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "b665087b-e60c-46b2-a611-653bcb272036",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:29:08Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "14ab227a-8fb4-4f20-9e4e-b365ad98a3dd",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:29:56Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "2edcdf16-ef92-4133-9e7f-d91fc8e9b512",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:30:13Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "98ea9f55-ed45-4cc4-afba-fc1452513f58",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:30:31Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "5ae06cef-f522-405c-8fc7-e08aa74cc34d",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:30:41Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "1aa004b8-9bda-41b9-bee6-290c9ab75d37",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:30:58Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "2b4f19d1-0948-459f-9149-331349633a50",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:31:22Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "8470a123-9878-4302-a895-17deb29de173",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:31:32Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "9bf22137-33f9-4adc-8b43-9138c8cc7b4a",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:31:57Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "c1893cf9-125b-4e51-adf0-b09d581123c7",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:31:57Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "cb62144b-6904-4e30-bc21-5007d8e20e7e",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:31:57Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "06b36cb2-e4f9-4c96-8988-8d195ed57378",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:32:33Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "524187f5-5713-403f-be41-25d01a9dcd3f",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:32:33Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "c748d27f-fdb1-4e4b-b411-95567d71bb80",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:32:55Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "853c93e8-bcab-462f-921d-ff1bc25e2e7b",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:32:59Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "24df0b94-aff2-4b44-b42e-fc56544d4227",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:33:22Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "c97313a1-2661-43e8-a801-778d9f46308c",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:33:22Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "781adfa2-71b6-4fc1-ab61-a0d80727c021",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:33:29Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "e4e2ac2f-b597-48f6-8ea4-a1c327ed7ae5",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:33:48Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "c9d9eb92-e7cf-4f60-b540-df2ffaae1fd4",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:35:04Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "7c87cb31-f5dc-47b6-95e5-fc207467c672",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:35:32Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "64c8c790-4700-400d-8667-24868684caab",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:35:54Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "746d342f-610a-4cb0-b29f-03789f42a79a",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:35:59Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "fd40b77c-7a83-4757-8667-6f5c0eeb7a06",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:36:26Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "f31a54a4-7dea-42c9-b62f-bf67d3d91e23",
+      "cohort": "reserved_family_transfer",
+      "source": "Thrill Data",
+      "date": "2026-03-29T20:38:09Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "1ee4ab87-8a11-4acc-91a3-13ebe4cb693c",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T04:58:33Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "de84d4a9-8d72-4e9c-9de7-35dd015b18fc",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T05:14:44Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "943bd4a0-8953-42ef-a2c9-9ea76be41103",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T05:32:25Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "10c7b290-eb05-4520-ba53-839259b74cc6",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T06:14:09Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "969b9bb6-aa71-4a8d-a384-de271e5d7aa0",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T06:32:38Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "de3e9f06-8a8b-4101-8c00-dbc1917e5801",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T06:36:39Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "01146443-ef2b-42f8-b45a-5af9e78ba2de",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T06:41:40Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "5b9a009a-b2fa-495b-a814-9de27f8fa6d7",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T06:41:40Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "b6be0fef-6931-4975-b308-1ed1688da9f8",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T06:41:42Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "effef98c-c457-499a-a37e-bd4ef2521d79",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T06:56:03Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "d129563c-b074-43b8-bb93-f099845b610d",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T07:06:51Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "0878617a-034d-434b-9748-8e95c32028e6",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T07:11:22Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "0c8491cf-f3d8-4e2c-a308-4d033db484e5",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T07:24:52Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "a8435815-997f-4940-b868-1171c7b8d5da",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T07:33:04Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "59802b6a-4e1d-4e14-866c-780d52a0fa40",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T07:43:34Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "d5c04940-1a61-4937-93f4-21cd8af272a1",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T07:48:49Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "c5e064aa-4adc-42a0-9f65-907d6f69b6a1",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T07:57:01Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "76e8a114-d0e8-450d-83ee-a2994ab29028",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T08:01:21Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "eb0e686e-ab2c-47f8-b878-3c19403a98b6",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T08:01:21Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "fe001813-985a-4dee-baa8-cd4264885b76",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T08:06:49Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "75268cad-8cd4-4c4d-a768-09504b660bc3",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T08:10:09Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "ecc83fc7-5110-4b12-bae5-606e96cb4b3f",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T08:18:58Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "1b564104-4cd0-401a-929b-eb5ad9520b99",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T08:21:54Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "90ffde2b-b0c2-4a40-a9a5-7ea82a908fb8",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T08:42:14Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "62cea6d0-5901-49ea-b164-14afde75c1bb",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T08:42:16Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "d2744c9b-470f-4480-a921-b5020ac9b67d",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T08:42:16Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "37f3b712-b389-4001-9ea1-a3aff6b2bbc4",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T09:04:49Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "5f7960b5-2efc-4096-9fcf-2cc02f59618d",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T09:15:37Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "07945d46-ab94-44fe-8dfc-708fa66384a4",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T09:16:18Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "f68a2798-8c2e-4e22-b405-835b077ef54d",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T09:25:58Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "1de05ad2-20ae-488c-9684-97ef1c5a496a",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T09:31:03Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "2c93f21d-d853-4b58-aa88-95f3926e12aa",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T09:37:31Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "fa3de051-601f-4851-88b4-3e768b8d2ed4",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T09:37:41Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "fa888c77-8e1d-4f2d-be9b-bf228fd9240d",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T09:38:47Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "851232cf-e4ee-4a74-8458-2ee57f95a2c5",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T09:47:31Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "075ef15c-5922-43b7-ac9a-02b8324c19d3",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T09:59:49Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "8d25aafa-058f-48ce-ab9c-a690c61bd5ff",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T10:01:34Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "fecc87a2-f1dd-4173-a846-2ec222adf279",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T10:01:39Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "14273ba7-917f-41e3-8e95-0e2980a7e762",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T10:09:11Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "e56612de-494c-4527-82e2-5ce9d4713ac0",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T10:09:11Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "421e73a1-96d4-4c84-b7b1-eb03bcd11ce4",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T10:09:35Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "212c4577-d1c6-4518-8f43-a686b14a4a58",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T10:17:30Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "44f87f03-8e5a-48cf-aa7d-1cf2f953d951",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T10:17:30Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "b1744b14-385e-437a-9af6-254c41e38abd",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T10:40:47Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "2d5577b6-31e8-478b-ac69-3fa571ec3f99",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T10:41:08Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "289e785d-6f9a-41d3-90fe-d63863171a87",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T10:41:24Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "3c183688-1231-40db-83ce-b2c63005ec67",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T10:52:15Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "21074b79-6ea7-4fcb-bf7f-60c72a8b4948",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T11:00:26Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "8c07b97b-53d0-4358-b4eb-641c7247fad7",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T11:08:18Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "639e6db4-261e-4cae-825d-5a9c3ca86e35",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T11:10:07Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "c9147af7-ba96-4e3a-a07a-72391cdcdf0d",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T11:36:55Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "464dd7ed-ab95-42fe-9c73-7495b828b6ed",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T11:49:52Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "0eaf26d0-cd75-44c4-acbd-407b3b271ed3",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T11:53:28Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "52141019-deca-4ffb-9b76-f4fa5b3fb1d1",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T12:07:58Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "1b0ffe47-732d-4dc2-8668-cddd2c54edcf",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T12:31:20Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "32874cf3-6b9a-4ddf-9907-17fd1aac23ef",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T12:40:34Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "d9076ebd-07cf-41c8-aed6-f6ca8be5821d",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T12:49:58Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "d99c8a3d-f58e-4f5f-bcb4-75135dbf901e",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T12:49:58Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "a0643bdb-3b70-4951-98e7-1a014bb921bf",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T12:50:12Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "29dafd3d-bac9-4686-be32-8004925d3911",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T12:56:15Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "62c570b3-9949-4dc5-a47d-8f373d1f6fa2",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T13:13:52Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "28c26308-a7de-40ea-81c1-f4ee53625cf9",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T13:14:18Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "4b62612b-81a0-4ce3-9637-dce11dd03808",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T14:37:28Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "80627f71-fd8a-4659-a58c-c86e32ec4cb3",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T14:46:28Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "bb3c4291-86f8-44ad-8875-c825bc2a27e6",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T14:56:24Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "5414de05-05ca-4d02-9c8a-50929cc1ff82",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T15:09:03Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "1a38a171-6713-4867-b0c0-2da55f80e690",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T15:16:50Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "0db4d797-2d84-4398-bf93-27104053757e",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T15:21:11Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "e94597d6-2a9d-4a3b-8515-8993414e7d13",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T16:01:33Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "bcc939fe-c6ca-45d2-ae2a-50d57692e2eb",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-05-26T16:32:49Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "bdf0e01c-4e72-4c67-9bcd-e78b904b008d",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-06-16T10:30:17Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "86b74853-8782-4f01-8bfb-3da4e2b06333",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-08-18T21:48:53Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    },
+    {
+      "report_id": "209375ce-0f6b-41e0-9ac3-6acd4ab3538a",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T20:01:26Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "1b323754-f171-46c0-885c-ff4d51f60193",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T19:55:34Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "ae8dd33a-fa03-41d0-b967-8365a16403f0",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T20:02:16Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "c46c6d18-beaf-4eb6-958f-6b4259706895",
+      "cohort": "development_known_oncb",
+      "source": "Thai ONCB",
+      "date": "2026-03-06T20:02:54Z",
+      "upstream_disposition": "included",
+      "upstream_confidence": "suggestive"
+    },
+    {
+      "report_id": "bdf482a4-6a84-4975-b362-8a1839ff728f",
+      "cohort": "upstream_background_challenge",
+      "source": "unassigned",
+      "date": "2026-09-20T00:04:40Z",
+      "upstream_disposition": "background",
+      "upstream_confidence": ""
+    }
+  ]
+}

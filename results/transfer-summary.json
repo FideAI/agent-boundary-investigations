@@ -1,0 +1,55 @@
+{
+  "cases": 17,
+  "route_variants": 47,
+  "comparison_cells": 188,
+  "conditions": {
+    "none": {
+      "cells": 47,
+      "authorized_cases": 22,
+      "unauthorized_cases": 25,
+      "unauthorized_receipt": 25,
+      "authorized_completed": 19,
+      "false_block": 0,
+      "final_partial_receipt": 3,
+      "client_failure_with_full_receipt": 3,
+      "client_success_without_full_receipt": 3
+    },
+    "browser_only": {
+      "cells": 47,
+      "authorized_cases": 22,
+      "unauthorized_cases": 25,
+      "unauthorized_receipt": 17,
+      "authorized_completed": 18,
+      "false_block": 1,
+      "final_partial_receipt": 3,
+      "client_failure_with_full_receipt": 3,
+      "client_success_without_full_receipt": 3
+    },
+    "per_tool": {
+      "cells": 47,
+      "authorized_cases": 22,
+      "unauthorized_cases": 25,
+      "unauthorized_receipt": 0,
+      "authorized_completed": 16,
+      "false_block": 3,
+      "final_partial_receipt": 3,
+      "client_failure_with_full_receipt": 3,
+      "client_success_without_full_receipt": 3
+    },
+    "shared": {
+      "cells": 47,
+      "authorized_cases": 22,
+      "unauthorized_cases": 25,
+      "unauthorized_receipt": 0,
+      "authorized_completed": 13,
+      "false_block": 6,
+      "final_partial_receipt": 3,
+      "client_failure_with_full_receipt": 3,
+      "client_success_without_full_receipt": 3
+    }
+  },
+  "script_sha256": "6e74fc8c74e186d52758e6e910ea6af630413d6b42a37370a25140dbb95f1d42",
+  "cases_sha256": "408e5259ae37e206455e9aa0c3392818c4bff1b06c84e8605fcea5d508c29996",
+  "created_utc": "2026-09-26T13:54:07.375236+00:00",
+  "unit": "authored fixture/route/condition; not model runs or independent real incidents"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "condition": "per_tool",
+    "challenge": "raw_client_bypasses_adapters",
+    "unauthorized_receipt": true
+  },
+  {
+    "condition": "shared",
+    "challenge": "raw_client_bypasses_adapters",
+    "unauthorized_receipt": true
+  },
+  {
+    "challenge": "delete_primary_copy",
+    "primary_removed": true,
+    "replica_still_present": true,
+    "replica_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+    "unchanged_replica": true,
+    "scope": "two authored local files; not a reconstruction of vendor cleanup"
+  },
+  {
+    "challenge": "revoke_after_receipt",
+    "earlier_receipt_retained": true,
+    "later_attempt_blocked": true,
+    "scope": "sequential dispatch; no concurrent revocation guarantee"
+  }
+]

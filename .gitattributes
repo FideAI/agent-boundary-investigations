@@ -1,0 +1,6 @@
+# Preserve frozen CSV bytes and their standard CRLF record terminators.
+*.csv -text whitespace=cr-at-eol
+*.json -text
+*.ipynb -text
+*.py text eol=lf
+*.md text eol=lf

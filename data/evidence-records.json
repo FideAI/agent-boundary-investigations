@@ -1,0 +1,98 @@
+{
+  "archive": {
+    "title": "What the final March record establishes",
+    "scope": "Historical archive · March 6, 2026 · report 81699969",
+    "fields": [
+      {
+        "label": "Proposed action",
+        "state": "Recorded",
+        "text": "Fetch the Thai statistics and send the beginning of the response to httpbin.",
+        "source": "https://urlquery.net/report/81699969-91c3-4454-913e-1a015b3fde47",
+        "locator": "submit.url.addr, decoded as inert text"
+      },
+      {
+        "label": "Permission",
+        "state": "Unknown",
+        "text": "The original operator’s permission policy is not in the acquired record.",
+        "source": "METHODS.md",
+        "locator": "Contribution and scope"
+      },
+      {
+        "label": "Observed requests",
+        "state": "Recorded",
+        "text": "Carrier, statistics endpoint, then output request, ordered by their timestamps.",
+        "source": "archive-transactions.csv",
+        "locator": "81699969: http[1], http[2], http[0]"
+      },
+      {
+        "label": "Recipient evidence",
+        "state": "Recorded",
+        "text": "The output URL contains statistics fields; its request has a recorded 200 response.",
+        "source": "https://urlquery.net/report/81699969-91c3-4454-913e-1a015b3fde47",
+        "locator": "http[0].url.addr; http[0].response.status_code"
+      },
+      {
+        "label": "Recovery",
+        "state": "Unknown",
+        "text": "No recovery action is established by this acquired record. This does not establish that recovery was required.",
+        "source": "METHODS.md",
+        "locator": "Archive scope and limits"
+      },
+      {
+        "label": "Still unresolved",
+        "state": "Unknown",
+        "text": "Exact source-to-output equality and whether the original agent received or used the answer.",
+        "source": "carrier-audit.json",
+        "locator": "records[3]; limits"
+      }
+    ]
+  },
+  "transfer": {
+    "title": "A failed client, a complete local receipt",
+    "scope": "Authored demonstration · E08-ack-lost · browser-like route · per-tool check",
+    "fields": [
+      {
+        "label": "Proposed action",
+        "state": "Authored",
+        "text": "Send the complete synthetic restricted fixture to the approved local recipient.",
+        "source": "transfer-decisions.csv",
+        "locator": "E08-ack-lost:browser_like:per_tool"
+      },
+      {
+        "label": "Permission",
+        "state": "Authored",
+        "text": "The case supplies an approved recipient, analysis purpose and permission=true. The control allows it.",
+        "source": "transfer-decisions.csv",
+        "locator": "E08-ack-lost:browser_like:per_tool; expected_authorized and decision_allowed"
+      },
+      {
+        "label": "Observed dispatch",
+        "state": "Observed",
+        "text": "The adapter sends the request. The recipient deliberately closes the connection after reading the file.",
+        "source": "transfer-decisions.csv",
+        "locator": "E08-ack-lost:browser_like:per_tool; client_status=0, client_success=False"
+      },
+      {
+        "label": "Recipient evidence",
+        "state": "Observed",
+        "text": "The recipient journal records all 59 intended bytes with the matching SHA-256 fingerprint. The client reports failure.",
+        "source": "transfer-receipts.csv",
+        "locator": "E08-ack-lost:browser_like:per_tool; recipient=approved"
+      },
+      {
+        "label": "Recovery",
+        "state": "Not tested",
+        "text": "No recovery action is tested for this permitted transfer. Receipt alone does not establish storage or deletion.",
+        "source": "experiment.md",
+        "locator": "Environment and trust boundaries"
+      },
+      {
+        "label": "Still unresolved",
+        "state": "Outside scope",
+        "text": "How an autonomous defender would respond without this recipient journal. No agent was evaluated.",
+        "source": "experiment.md",
+        "locator": "Qualification and review"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "unit": "selected archived reports; neither actors nor independent incidents",
+  "selected": 187,
+  "retrieved": 187,
+  "cohorts": {
+    "development_known_oncb": {
+      "reports": 29,
+      "decoded_carrier": 4,
+      "script": 4,
+      "fetch_and_relay": 2,
+      "exact_oncb_endpoint": 22,
+      "observed_output": 1
+    },
+    "reserved_family_transfer": {
+      "reports": 79,
+      "decoded_carrier": 2,
+      "script": 0,
+      "fetch_and_relay": 0,
+      "exact_oncb_endpoint": 0,
+      "observed_output": 0
+    },
+    "upstream_background_challenge": {
+      "reports": 79,
+      "decoded_carrier": 1,
+      "script": 1,
+      "fetch_and_relay": 0,
+      "exact_oncb_endpoint": 0,
+      "observed_output": 0
+    }
+  },
+  "body_coverage": {
+    "transactions": 2978,
+    "body_present": 0
+  },
+  "positive_size_empty_hash_entries": 128,
+  "limitations": [
+    "Purpose-selected cohort, not prevalence sample",
+    "Upstream background labels are not independent ground truth",
+    "Response status and size cannot establish payload content or successful exploitation",
+    "Unavailable response bodies preclude exact source-to-output payload matching"
+  ]
+}

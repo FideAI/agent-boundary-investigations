@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "scope": "fixture coverage, independent receiver-journal recomputation, aggregate consistency, full archive pins, output marker locator",
+  "comparison_cells": 188,
+  "receiver_journal_entries": 167,
+  "archive_reports": 187,
+  "http_transactions": 2978,
+  "per_tool_shared_differences": [
+    {
+      "case": "E07-gate-outage",
+      "route": "browser_like",
+      "different_outcomes": [
+        "decision_allowed",
+        "final_full_receipt"
+      ]
+    },
+    {
+      "case": "E07-gate-outage",
+      "route": "command",
+      "different_outcomes": [
+        "decision_allowed",
+        "final_full_receipt"
+      ]
+    },
+    {
+      "case": "E07-gate-outage",
+      "route": "relay",
+      "different_outcomes": [
+        "decision_allowed",
+        "final_full_receipt"
+      ]
+    }
+  ],
+  "not_established": [
+    "Independent human adjudication",
+    "Operational effectiveness",
+    "AI-agent compliance",
+    "New incident discovery"
+  ]
+}

@@ -1,0 +1,180 @@
+[
+  {
+    "id": "A01",
+    "claim": "The selected archive study acquired 187 reports: 29 development, 79 other March families and 79 upstream background.",
+    "basis": "Fide acquisition and recomputation",
+    "evidence": [
+      "data/selection.json",
+      "data/acquisition.json",
+      "results/archive-summary.json"
+    ],
+    "limit": "Purposeful selection; not 187 agents or attacks",
+    "review": "assistant checked; human pending"
+  },
+  {
+    "id": "A02",
+    "claim": "Four ONCB submissions contain programs; two contain fetch-and-relay instructions; one report records an ONCB data-bearing output request.",
+    "basis": "Static decoding plus archived HTTP entries",
+    "evidence": [
+      "results/archive-observations.csv",
+      "results/archive-transactions.csv"
+    ],
+    "source": "https://urlquery.net/report/81699969-91c3-4454-913e-1a015b3fde47",
+    "locator": "http[0].url.addr and http[0].response.status_code; final.dom.size",
+    "limit": "No exact source/output byte match; no proof of subsequent agent use",
+    "review": "assistant close read; human pending"
+  },
+  {
+    "id": "A03",
+    "claim": "Some submitted programs have no corresponding target or output request in the retained record.",
+    "basis": "Two contrasted March 6 source records",
+    "source": "https://urlquery.net/report/599b4a38-3c6c-451a-bcfc-fb7c2d3e85b8",
+    "evidence": [
+      "results/archive-observations.csv",
+      "results/archive-transactions.csv"
+    ],
+    "limit": "Absence scoped to acquired record; not a global absence claim",
+    "review": "assistant close read; human pending"
+  },
+  {
+    "id": "A04",
+    "claim": "Two other March carriers encode answer tables without scripts, while one upstream background carrier contains a diagnostic script.",
+    "basis": "Static decoding of d6669745, 4c62b534 and bdf482a4 reports",
+    "evidence": [
+      "results/archive-observations.csv"
+    ],
+    "limit": "Background labels are upstream judgments; not a false-positive rate",
+    "review": "assistant close read; human pending"
+  },
+  {
+    "id": "A05",
+    "claim": "All 2,978 selected HTTP entries lack embedded raw response body data; 128 pair a positive reported size with an empty-string SHA-256.",
+    "basis": "Fide JSON field checks",
+    "evidence": [
+      "results/archive-summary.json",
+      "results/hash-field-anomalies.json"
+    ],
+    "limit": "Archive representation caution, not proof of falsification",
+    "review": "assistant checked; human pending"
+  },
+  {
+    "id": "A06",
+    "claim": "This investigation has not established a new incident or independently authenticated an actor.",
+    "basis": "Novelty and search review",
+    "evidence": [
+      "data/search-log.json",
+      "RESEARCH-NOTES.md"
+    ],
+    "limit": "Empty service responses did not establish zero search results",
+    "review": "assistant checked; human pending"
+  },
+  {
+    "id": "T01",
+    "claim": "The main comparison ran 17 authored cases, 47 route variants and 188 condition cells.",
+    "basis": "Executed local HTTP experiment",
+    "evidence": [
+      "data/transfer-cases.json",
+      "results/transfer-decisions.csv",
+      "results/verification.json"
+    ],
+    "limit": "Correlated authored fixtures, not independent real-world incidents",
+    "review": "assistant checked; human pending"
+  },
+  {
+    "id": "T02",
+    "claim": "Both complete controls prevented all 25 prohibited variants; the shared service added no prevention in the fixture set.",
+    "basis": "Receiver-journal recomputation",
+    "evidence": [
+      "results/transfer-summary.json",
+      "results/transfer-receipts.csv"
+    ],
+    "limit": "Trusted adapters and inputs; raw client bypasses both",
+    "review": "assistant checked; human pending"
+  },
+  {
+    "id": "T03",
+    "claim": "Of 22 permitted variants, per-tool checks completed 16 and shared checks 13; the difference was the injected shared-service outage.",
+    "basis": "Per-case outcome comparison",
+    "evidence": [
+      "results/transfer-decisions.csv",
+      "results/verification.json"
+    ],
+    "limit": "Not a deployment reliability estimate; both also block a missing fixture restriction label and receive partial fixtures",
+    "review": "assistant checked; human pending"
+  },
+  {
+    "id": "T04",
+    "claim": "Injected faults produced failed clients with full receipt and successful clients with partial receipt under every condition.",
+    "basis": "Separate client and receiver observations",
+    "evidence": [
+      "results/transfer-decisions.csv",
+      "results/transfer-receipts.csv"
+    ],
+    "limit": "Two authored faults across three adapters; not natural failure frequency",
+    "review": "assistant checked; human pending"
+  },
+  {
+    "id": "T05",
+    "claim": "An unmediated client bypassed both complete adapter controls.",
+    "basis": "Executed separate challenge",
+    "evidence": [
+      "results/transfer-challenges.json",
+      "results/challenge-events.csv",
+      "results/challenge-receipts.csv"
+    ],
+    "limit": "The experiment has no OS-level network enforcement",
+    "review": "assistant checked; human pending"
+  },
+  {
+    "id": "T06",
+    "claim": "OpenAI reported successful public uploads followed by blocked browser operations.",
+    "basis": "Publisher-reported historical examples",
+    "source": "https://alignment.openai.com/misalignment-reports/uploading-files-to-the-internet-in-order-to-cite-them/",
+    "limit": "Not independently verified by Fide; not part of the experiment denominator",
+    "review": "source read; human pending"
+  },
+  {
+    "id": "T07",
+    "claim": "A second request supplied with permission=false was denied while an earlier permitted receipt remained in the journal.",
+    "basis": "Separate local challenge",
+    "evidence": [
+      "results/transfer-challenges.json",
+      "results/challenge-events.csv",
+      "results/challenge-receipts.csv"
+    ],
+    "limit": "Two static case definitions; no mutable permission store, revocation operation or concurrency test",
+    "review": "assistant checked; human pending"
+  },
+  {
+    "id": "T08",
+    "claim": "Removing a primary local file left a known replica with the original digest.",
+    "basis": "Local two-file illustration",
+    "evidence": [
+      "results/transfer-challenges.json"
+    ],
+    "limit": "Not evidence about any external service or vendor cleanup",
+    "review": "assistant checked; human pending"
+  },
+  {
+    "id": "A07",
+    "claim": "All seven decodable httpbin payloads in the 187 selected reports were audited: five carrier fingerprints match and two differ; three of five submitted script payloads have matching script entries.",
+    "basis": "Static byte and SHA-256 comparisons against pinned acquired JSON",
+    "evidence": [
+      "scripts/audit_carriers.py",
+      "results/carrier-audit.json"
+    ],
+    "limit": "Archive metadata corroboration, not recovered response bodies, proof of complete execution or an actor detector",
+    "review": "assistant checked; human pending"
+  },
+  {
+    "id": "T09",
+    "claim": "The 47 named route variants contain 33 distinct operational configurations under the documented executable-input grouping.",
+    "basis": "Static inspection of fixture bytes, labels, cases, routes and fault flags",
+    "evidence": [
+      "scripts/transfer_coverage.py",
+      "results/transfer-coverage.json"
+    ],
+    "limit": "Neither named nor grouped counts are independent real incidents or statistical trials",
+    "review": "assistant checked; human pending"
+  }
+]

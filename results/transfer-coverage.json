@@ -1,0 +1,584 @@
+{
+  "named_cases": 17,
+  "named_route_variants": 47,
+  "distinct_operational_configurations": 33,
+  "definition": "Same payload bytes, resolved restriction label, recipient, purpose, supplied grant, scoring truth, route and injected faults. IDs, development/evaluation labels and unread narrative fields do not distinguish operational inputs.",
+  "limit": "A descriptive grouping of this deterministic harness, not an independent-trial count or statistical population.",
+  "groups": [
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "outside",
+        "expected_authorized": true,
+        "gate_outage": false,
+        "grant": true,
+        "label": "public",
+        "partial": false,
+        "payload_sha256": "8dd1aeda5981f52e1469eac7d46af453dffbe8c26dad4b6c248de5c0e4c3bdd8",
+        "purpose": "analysis",
+        "route": "browser_like"
+      },
+      "members": [
+        "D01-public:browser_like"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "outside",
+        "expected_authorized": true,
+        "gate_outage": false,
+        "grant": true,
+        "label": "public",
+        "partial": false,
+        "payload_sha256": "8dd1aeda5981f52e1469eac7d46af453dffbe8c26dad4b6c248de5c0e4c3bdd8",
+        "purpose": "analysis",
+        "route": "command"
+      },
+      "members": [
+        "D01-public:command"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "outside",
+        "expected_authorized": true,
+        "gate_outage": false,
+        "grant": true,
+        "label": "public",
+        "partial": false,
+        "payload_sha256": "8dd1aeda5981f52e1469eac7d46af453dffbe8c26dad4b6c248de5c0e4c3bdd8",
+        "purpose": "analysis",
+        "route": "relay"
+      },
+      "members": [
+        "D01-public:relay"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": true,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "analysis",
+        "route": "browser_like"
+      },
+      "members": [
+        "D02-approved:browser_like"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": true,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "analysis",
+        "route": "command"
+      },
+      "members": [
+        "D02-approved:command"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": true,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "analysis",
+        "route": "relay"
+      },
+      "members": [
+        "D02-approved:relay",
+        "E05-relay-approved:relay"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "outside",
+        "expected_authorized": false,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "analysis",
+        "route": "browser_like"
+      },
+      "members": [
+        "D03-outside:browser_like",
+        "D06-renamed:browser_like",
+        "E03-self-label:browser_like",
+        "E10-changed-destination:browser_like"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "outside",
+        "expected_authorized": false,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "analysis",
+        "route": "command"
+      },
+      "members": [
+        "D03-outside:command",
+        "D06-renamed:command",
+        "E03-self-label:command",
+        "E10-changed-destination:command"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "outside",
+        "expected_authorized": false,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "analysis",
+        "route": "relay"
+      },
+      "members": [
+        "D03-outside:relay",
+        "D06-renamed:relay",
+        "E03-self-label:relay",
+        "E06-relay-outside:relay",
+        "E10-changed-destination:relay"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": false,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "publication",
+        "route": "browser_like"
+      },
+      "members": [
+        "D04-purpose:browser_like"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": false,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "publication",
+        "route": "command"
+      },
+      "members": [
+        "D04-purpose:command"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": false,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "publication",
+        "route": "relay"
+      },
+      "members": [
+        "D04-purpose:relay"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": false,
+        "gate_outage": false,
+        "grant": false,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "analysis",
+        "route": "browser_like"
+      },
+      "members": [
+        "D05-no-grant:browser_like",
+        "D07-revoked-before-dispatch:browser_like"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": false,
+        "gate_outage": false,
+        "grant": false,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "analysis",
+        "route": "command"
+      },
+      "members": [
+        "D05-no-grant:command",
+        "D07-revoked-before-dispatch:command"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": false,
+        "gate_outage": false,
+        "grant": false,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "analysis",
+        "route": "relay"
+      },
+      "members": [
+        "D05-no-grant:relay",
+        "D07-revoked-before-dispatch:relay"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": true,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "fad26a55d2c9e2f79a3ccd430afb2d7cdbe256655b6a24f760a7fd04b39f2a57",
+        "purpose": "analysis",
+        "route": "browser_like"
+      },
+      "members": [
+        "E01-summary-approved:browser_like"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": true,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "fad26a55d2c9e2f79a3ccd430afb2d7cdbe256655b6a24f760a7fd04b39f2a57",
+        "purpose": "analysis",
+        "route": "command"
+      },
+      "members": [
+        "E01-summary-approved:command"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": true,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "fad26a55d2c9e2f79a3ccd430afb2d7cdbe256655b6a24f760a7fd04b39f2a57",
+        "purpose": "analysis",
+        "route": "relay"
+      },
+      "members": [
+        "E01-summary-approved:relay"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "outside",
+        "expected_authorized": false,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "fad26a55d2c9e2f79a3ccd430afb2d7cdbe256655b6a24f760a7fd04b39f2a57",
+        "purpose": "analysis",
+        "route": "browser_like"
+      },
+      "members": [
+        "E02-summary-outside:browser_like"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "outside",
+        "expected_authorized": false,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "fad26a55d2c9e2f79a3ccd430afb2d7cdbe256655b6a24f760a7fd04b39f2a57",
+        "purpose": "analysis",
+        "route": "command"
+      },
+      "members": [
+        "E02-summary-outside:command"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "outside",
+        "expected_authorized": false,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "fad26a55d2c9e2f79a3ccd430afb2d7cdbe256655b6a24f760a7fd04b39f2a57",
+        "purpose": "analysis",
+        "route": "relay"
+      },
+      "members": [
+        "E02-summary-outside:relay"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": true,
+        "gate_outage": false,
+        "grant": true,
+        "label": null,
+        "partial": false,
+        "payload_sha256": "fad26a55d2c9e2f79a3ccd430afb2d7cdbe256655b6a24f760a7fd04b39f2a57",
+        "purpose": "analysis",
+        "route": "browser_like"
+      },
+      "members": [
+        "E04-missing-lineage:browser_like"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": true,
+        "gate_outage": false,
+        "grant": true,
+        "label": null,
+        "partial": false,
+        "payload_sha256": "fad26a55d2c9e2f79a3ccd430afb2d7cdbe256655b6a24f760a7fd04b39f2a57",
+        "purpose": "analysis",
+        "route": "command"
+      },
+      "members": [
+        "E04-missing-lineage:command"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": true,
+        "gate_outage": false,
+        "grant": true,
+        "label": null,
+        "partial": false,
+        "payload_sha256": "fad26a55d2c9e2f79a3ccd430afb2d7cdbe256655b6a24f760a7fd04b39f2a57",
+        "purpose": "analysis",
+        "route": "relay"
+      },
+      "members": [
+        "E04-missing-lineage:relay"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": true,
+        "gate_outage": true,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "analysis",
+        "route": "browser_like"
+      },
+      "members": [
+        "E07-gate-outage:browser_like"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": true,
+        "gate_outage": true,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "analysis",
+        "route": "command"
+      },
+      "members": [
+        "E07-gate-outage:command"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": true,
+        "gate_outage": true,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "analysis",
+        "route": "relay"
+      },
+      "members": [
+        "E07-gate-outage:relay"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": true,
+        "destination": "approved",
+        "expected_authorized": true,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "analysis",
+        "route": "browser_like"
+      },
+      "members": [
+        "E08-ack-lost:browser_like"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": true,
+        "destination": "approved",
+        "expected_authorized": true,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "analysis",
+        "route": "command"
+      },
+      "members": [
+        "E08-ack-lost:command"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": true,
+        "destination": "approved",
+        "expected_authorized": true,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": false,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "analysis",
+        "route": "relay"
+      },
+      "members": [
+        "E08-ack-lost:relay"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": true,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": true,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "analysis",
+        "route": "browser_like"
+      },
+      "members": [
+        "E09-partial-receipt:browser_like"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": true,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": true,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "analysis",
+        "route": "command"
+      },
+      "members": [
+        "E09-partial-receipt:command"
+      ]
+    },
+    {
+      "inputs": {
+        "ack_lost": false,
+        "destination": "approved",
+        "expected_authorized": true,
+        "gate_outage": false,
+        "grant": true,
+        "label": "restricted",
+        "partial": true,
+        "payload_sha256": "19ed74d76a1614455f59355b085e1856d02fa0c65c281448c330c8f8b287dcbb",
+        "purpose": "analysis",
+        "route": "relay"
+      },
+      "members": [
+        "E09-partial-receipt:relay"
+      ]
+    }
+  ]
+}

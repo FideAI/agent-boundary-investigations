@@ -1,0 +1,642 @@
+[
+  {
+    "report_id": "79a40344-d881-45ac-a7b4-f0d0a8bf866d",
+    "field": "http[60].response.data",
+    "size": 145256
+  },
+  {
+    "report_id": "66ded2cd-05c6-40fc-bbb1-f61360c69a41",
+    "field": "http[16].response.data",
+    "size": 15025
+  },
+  {
+    "report_id": "40dd1d98-719a-455a-a91e-f3c341610b12",
+    "field": "http[3].response.data",
+    "size": 9842
+  },
+  {
+    "report_id": "59950d9e-3051-4378-aab1-ea236edabc2c",
+    "field": "http[12].response.data",
+    "size": 28022
+  },
+  {
+    "report_id": "4e2b6c8c-1f42-4d67-b2f2-c5da7877ffed",
+    "field": "http[0].response.data",
+    "size": 43722
+  },
+  {
+    "report_id": "8e88b0dc-c801-46d9-b079-56d04635ddb3",
+    "field": "http[0].response.data",
+    "size": 43722
+  },
+  {
+    "report_id": "70f83402-70e7-455e-bb89-e97f8f3147ed",
+    "field": "http[2].response.data",
+    "size": 27707
+  },
+  {
+    "report_id": "0cfdb0b5-1cf3-445c-bb73-b825c0b0f6d3",
+    "field": "http[0].response.data",
+    "size": 43722
+  },
+  {
+    "report_id": "ecd99908-518e-4b92-b3eb-535b69b71968",
+    "field": "http[0].response.data",
+    "size": 43722
+  },
+  {
+    "report_id": "332cdc0d-2560-4e04-bf13-257f7a483350",
+    "field": "http[0].response.data",
+    "size": 43722
+  },
+  {
+    "report_id": "6bbaa900-c787-4414-9963-2111ef912451",
+    "field": "http[0].response.data",
+    "size": 43722
+  },
+  {
+    "report_id": "118bfaa7-db66-4681-97ef-86b068c294f6",
+    "field": "http[0].response.data",
+    "size": 43722
+  },
+  {
+    "report_id": "77ab6424-826c-4c1a-a6a9-4478a0ba9b27",
+    "field": "http[0].response.data",
+    "size": 43722
+  },
+  {
+    "report_id": "e9444342-57c1-4e93-aa18-a0271798386e",
+    "field": "http[0].response.data",
+    "size": 43722
+  },
+  {
+    "report_id": "c0b06c5e-d1c0-42de-9845-99cb69a42a8f",
+    "field": "http[0].response.data",
+    "size": 43722
+  },
+  {
+    "report_id": "cacd464f-c097-417a-9607-5799765880b7",
+    "field": "http[0].response.data",
+    "size": 26062
+  },
+  {
+    "report_id": "ff8fd85b-4aed-4473-b38e-e1d23c33902b",
+    "field": "http[0].response.data",
+    "size": 43722
+  },
+  {
+    "report_id": "e3c3f4fe-0741-4dbd-bed3-4e88f324d51a",
+    "field": "http[0].response.data",
+    "size": 43722
+  },
+  {
+    "report_id": "2e788302-9d49-4c69-a031-24365a8e373f",
+    "field": "http[0].response.data",
+    "size": 43722
+  },
+  {
+    "report_id": "2be9278c-d367-4dd5-b618-036bf0401437",
+    "field": "http[0].response.data",
+    "size": 43722
+  },
+  {
+    "report_id": "8e145c22-2c6c-42ee-b663-c7c23d2763c0",
+    "field": "http[0].response.data",
+    "size": 1140
+  },
+  {
+    "report_id": "57931b9a-29fa-47e6-a3ea-8549f9197894",
+    "field": "http[5].response.data",
+    "size": 28215
+  },
+  {
+    "report_id": "5d2088c0-a7ff-4bd2-b469-211da60660e5",
+    "field": "http[5].response.data",
+    "size": 10761
+  },
+  {
+    "report_id": "5d2088c0-a7ff-4bd2-b469-211da60660e5",
+    "field": "http[8].response.data",
+    "size": 26472
+  },
+  {
+    "report_id": "4df152ef-86ab-4b7b-ba76-b8ae1172527c",
+    "field": "http[5].response.data",
+    "size": 26652
+  },
+  {
+    "report_id": "4df152ef-86ab-4b7b-ba76-b8ae1172527c",
+    "field": "http[6].response.data",
+    "size": 10761
+  },
+  {
+    "report_id": "a56e67e9-57c1-4e10-904d-11d92f595e92",
+    "field": "http[0].response.data",
+    "size": 29343
+  },
+  {
+    "report_id": "d5f3688d-e0ea-43de-ac41-98f55c41a422",
+    "field": "http[6].response.data",
+    "size": 28024
+  },
+  {
+    "report_id": "d5f3688d-e0ea-43de-ac41-98f55c41a422",
+    "field": "http[13].response.data",
+    "size": 10761
+  },
+  {
+    "report_id": "98bfa140-d94c-49bc-9ae3-24b3f330dbc9",
+    "field": "http[7].response.data",
+    "size": 28783
+  },
+  {
+    "report_id": "98bfa140-d94c-49bc-9ae3-24b3f330dbc9",
+    "field": "http[9].response.data",
+    "size": 10761
+  },
+  {
+    "report_id": "ed72a407-703c-4483-a39f-9688339cd38e",
+    "field": "http[17].response.data",
+    "size": 27543
+  },
+  {
+    "report_id": "ed72a407-703c-4483-a39f-9688339cd38e",
+    "field": "http[23].response.data",
+    "size": 10761
+  },
+  {
+    "report_id": "a0bd87f2-d0d4-4a44-8a16-5aada808ab40",
+    "field": "http[2].response.data",
+    "size": 27726
+  },
+  {
+    "report_id": "a0bd87f2-d0d4-4a44-8a16-5aada808ab40",
+    "field": "http[9].response.data",
+    "size": 10756
+  },
+  {
+    "report_id": "7c6d0b0c-a159-455e-b094-d56d3b2d7608",
+    "field": "http[10].response.data",
+    "size": 28226
+  },
+  {
+    "report_id": "f38deb38-feea-4c05-be17-9f24ff3db44d",
+    "field": "http[3].response.data",
+    "size": 31102
+  },
+  {
+    "report_id": "ab5c4239-6f51-4c2c-b5e7-6de762915598",
+    "field": "http[5].response.data",
+    "size": 31102
+  },
+  {
+    "report_id": "fb623180-46b9-4986-ab52-2c2a9dd7db25",
+    "field": "http[5].response.data",
+    "size": 25698
+  },
+  {
+    "report_id": "0af66d01-c21e-421a-89e2-a52fd90cd7c1",
+    "field": "http[7].response.data",
+    "size": 25815
+  },
+  {
+    "report_id": "bf4185fe-9ea2-4e16-b191-03b1f96d186e",
+    "field": "http[8].response.data",
+    "size": 10756
+  },
+  {
+    "report_id": "bf4185fe-9ea2-4e16-b191-03b1f96d186e",
+    "field": "http[14].response.data",
+    "size": 24433
+  },
+  {
+    "report_id": "3c68403b-7e0f-4964-89f4-7872d9b62dc4",
+    "field": "http[10].response.data",
+    "size": 24850
+  },
+  {
+    "report_id": "9b3af254-2909-41c4-9bc9-d3db26cbddf2",
+    "field": "http[7].response.data",
+    "size": 10756
+  },
+  {
+    "report_id": "9b3af254-2909-41c4-9bc9-d3db26cbddf2",
+    "field": "http[9].response.data",
+    "size": 25868
+  },
+  {
+    "report_id": "83b85697-0177-4ce7-9e02-08fe0fc4ba5a",
+    "field": "http[3].response.data",
+    "size": 25277
+  },
+  {
+    "report_id": "83b85697-0177-4ce7-9e02-08fe0fc4ba5a",
+    "field": "http[13].response.data",
+    "size": 10761
+  },
+  {
+    "report_id": "151bb496-d4f8-4004-bdd2-cdbad1aac749",
+    "field": "http[10].response.data",
+    "size": 10756
+  },
+  {
+    "report_id": "151bb496-d4f8-4004-bdd2-cdbad1aac749",
+    "field": "http[13].response.data",
+    "size": 25454
+  },
+  {
+    "report_id": "b5bdaba7-5cea-41b4-9a48-47278cfbed09",
+    "field": "http[6].response.data",
+    "size": 10761
+  },
+  {
+    "report_id": "b5bdaba7-5cea-41b4-9a48-47278cfbed09",
+    "field": "http[9].response.data",
+    "size": 28168
+  },
+  {
+    "report_id": "4c46683b-079e-4b6c-aa1f-2519a90c93df",
+    "field": "http[9].response.data",
+    "size": 25010
+  },
+  {
+    "report_id": "d2dd5b23-24f0-47e5-9acc-8e87647c04b1",
+    "field": "http[1].response.data",
+    "size": 7083
+  },
+  {
+    "report_id": "0a96cf2f-0b9a-47bc-a727-988ab9566eb9",
+    "field": "http[0].response.data",
+    "size": 7078
+  },
+  {
+    "report_id": "a82e2e69-57f4-4e7a-8ece-89ca1cbfd317",
+    "field": "http[36].response.data",
+    "size": 28593
+  },
+  {
+    "report_id": "a82e2e69-57f4-4e7a-8ece-89ca1cbfd317",
+    "field": "http[53].response.data",
+    "size": 42
+  },
+  {
+    "report_id": "f9ad685b-5dc3-4edf-8c0a-d3584f96e364",
+    "field": "http[1].response.data",
+    "size": 25983
+  },
+  {
+    "report_id": "83df15df-a7f5-4dc8-aaa6-471fedc160f3",
+    "field": "http[35].response.data",
+    "size": 42
+  },
+  {
+    "report_id": "83df15df-a7f5-4dc8-aaa6-471fedc160f3",
+    "field": "http[51].response.data",
+    "size": 28593
+  },
+  {
+    "report_id": "ddc90fe3-e4c6-445a-b816-c39eb287ee1d",
+    "field": "http[2].response.data",
+    "size": 28593
+  },
+  {
+    "report_id": "ddc90fe3-e4c6-445a-b816-c39eb287ee1d",
+    "field": "http[6].response.data",
+    "size": 1098
+  },
+  {
+    "report_id": "30c1297b-afd5-4261-b767-8a513966e59c",
+    "field": "http[84].response.data",
+    "size": 42
+  },
+  {
+    "report_id": "30c1297b-afd5-4261-b767-8a513966e59c",
+    "field": "http[109].response.data",
+    "size": 26905
+  },
+  {
+    "report_id": "5797d1c1-5ea5-4c69-9eb0-b733664ce1b4",
+    "field": "http[10].response.data",
+    "size": 27283
+  },
+  {
+    "report_id": "5797d1c1-5ea5-4c69-9eb0-b733664ce1b4",
+    "field": "http[16].response.data",
+    "size": 42
+  },
+  {
+    "report_id": "c2bbbb6f-ca7c-464b-bcbf-3614d9840047",
+    "field": "http[105].response.data",
+    "size": 25775
+  },
+  {
+    "report_id": "c2bbbb6f-ca7c-464b-bcbf-3614d9840047",
+    "field": "http[108].response.data",
+    "size": 43
+  },
+  {
+    "report_id": "19c578a5-9ba5-4479-99a2-1871335b5778",
+    "field": "http[3].response.data",
+    "size": 29571
+  },
+  {
+    "report_id": "19c578a5-9ba5-4479-99a2-1871335b5778",
+    "field": "http[75].response.data",
+    "size": 43
+  },
+  {
+    "report_id": "2edcdf16-ef92-4133-9e7f-d91fc8e9b512",
+    "field": "http[7].response.data",
+    "size": 25033
+  },
+  {
+    "report_id": "2edcdf16-ef92-4133-9e7f-d91fc8e9b512",
+    "field": "http[87].response.data",
+    "size": 43
+  },
+  {
+    "report_id": "98ea9f55-ed45-4cc4-afba-fc1452513f58",
+    "field": "http[24].response.data",
+    "size": 43
+  },
+  {
+    "report_id": "98ea9f55-ed45-4cc4-afba-fc1452513f58",
+    "field": "http[105].response.data",
+    "size": 26704
+  },
+  {
+    "report_id": "fd40b77c-7a83-4757-8667-6f5c0eeb7a06",
+    "field": "http[0].response.data",
+    "size": 28589
+  },
+  {
+    "report_id": "fd40b77c-7a83-4757-8667-6f5c0eeb7a06",
+    "field": "http[4].response.data",
+    "size": 1098
+  },
+  {
+    "report_id": "1ee4ab87-8a11-4acc-91a3-13ebe4cb693c",
+    "field": "http[3].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "de84d4a9-8d72-4e9c-9de7-35dd015b18fc",
+    "field": "http[8].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "943bd4a0-8953-42ef-a2c9-9ea76be41103",
+    "field": "http[5].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "10c7b290-eb05-4520-ba53-839259b74cc6",
+    "field": "http[2].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "969b9bb6-aa71-4a8d-a384-de271e5d7aa0",
+    "field": "http[12].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "de3e9f06-8a8b-4101-8c00-dbc1917e5801",
+    "field": "http[6].response.data",
+    "size": 38825
+  },
+  {
+    "report_id": "01146443-ef2b-42f8-b45a-5af9e78ba2de",
+    "field": "http[13].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "5b9a009a-b2fa-495b-a814-9de27f8fa6d7",
+    "field": "http[9].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "b6be0fef-6931-4975-b308-1ed1688da9f8",
+    "field": "http[14].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "effef98c-c457-499a-a37e-bd4ef2521d79",
+    "field": "http[33].response.data",
+    "size": 38817
+  },
+  {
+    "report_id": "d129563c-b074-43b8-bb93-f099845b610d",
+    "field": "http[10].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "0878617a-034d-434b-9748-8e95c32028e6",
+    "field": "http[9].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "0c8491cf-f3d8-4e2c-a308-4d033db484e5",
+    "field": "http[14].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "a8435815-997f-4940-b868-1171c7b8d5da",
+    "field": "http[2].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "59802b6a-4e1d-4e14-866c-780d52a0fa40",
+    "field": "http[14].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "d5c04940-1a61-4937-93f4-21cd8af272a1",
+    "field": "http[12].response.data",
+    "size": 38817
+  },
+  {
+    "report_id": "c5e064aa-4adc-42a0-9f65-907d6f69b6a1",
+    "field": "http[6].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "76e8a114-d0e8-450d-83ee-a2994ab29028",
+    "field": "http[3].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "eb0e686e-ab2c-47f8-b878-3c19403a98b6",
+    "field": "http[0].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "fe001813-985a-4dee-baa8-cd4264885b76",
+    "field": "http[7].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "75268cad-8cd4-4c4d-a768-09504b660bc3",
+    "field": "http[16].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "1b564104-4cd0-401a-929b-eb5ad9520b99",
+    "field": "http[15].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "f68a2798-8c2e-4e22-b405-835b077ef54d",
+    "field": "http[1].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "1de05ad2-20ae-488c-9684-97ef1c5a496a",
+    "field": "http[0].response.data",
+    "size": 38817
+  },
+  {
+    "report_id": "fa888c77-8e1d-4f2d-be9b-bf228fd9240d",
+    "field": "http[0].response.data",
+    "size": 38817
+  },
+  {
+    "report_id": "075ef15c-5922-43b7-ac9a-02b8324c19d3",
+    "field": "http[0].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "8d25aafa-058f-48ce-ab9c-a690c61bd5ff",
+    "field": "http[13].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "fecc87a2-f1dd-4173-a846-2ec222adf279",
+    "field": "http[14].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "e56612de-494c-4527-82e2-5ce9d4713ac0",
+    "field": "http[0].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "421e73a1-96d4-4c84-b7b1-eb03bcd11ce4",
+    "field": "http[6].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "212c4577-d1c6-4518-8f43-a686b14a4a58",
+    "field": "http[0].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "44f87f03-8e5a-48cf-aa7d-1cf2f953d951",
+    "field": "http[12].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "b1744b14-385e-437a-9af6-254c41e38abd",
+    "field": "http[0].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "2d5577b6-31e8-478b-ac69-3fa571ec3f99",
+    "field": "http[19].response.data",
+    "size": 38809
+  },
+  {
+    "report_id": "289e785d-6f9a-41d3-90fe-d63863171a87",
+    "field": "http[2].response.data",
+    "size": 38825
+  },
+  {
+    "report_id": "21074b79-6ea7-4fcb-bf7f-60c72a8b4948",
+    "field": "http[17].response.data",
+    "size": 38817
+  },
+  {
+    "report_id": "8c07b97b-53d0-4358-b4eb-641c7247fad7",
+    "field": "http[15].response.data",
+    "size": 38817
+  },
+  {
+    "report_id": "464dd7ed-ab95-42fe-9c73-7495b828b6ed",
+    "field": "http[28].response.data",
+    "size": 38817
+  },
+  {
+    "report_id": "0eaf26d0-cd75-44c4-acbd-407b3b271ed3",
+    "field": "http[12].response.data",
+    "size": 206
+  },
+  {
+    "report_id": "52141019-deca-4ffb-9b76-f4fa5b3fb1d1",
+    "field": "http[15].response.data",
+    "size": 38817
+  },
+  {
+    "report_id": "1b0ffe47-732d-4dc2-8668-cddd2c54edcf",
+    "field": "http[11].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "32874cf3-6b9a-4ddf-9907-17fd1aac23ef",
+    "field": "http[13].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "d9076ebd-07cf-41c8-aed6-f6ca8be5821d",
+    "field": "http[16].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "d99c8a3d-f58e-4f5f-bcb4-75135dbf901e",
+    "field": "http[7].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "a0643bdb-3b70-4951-98e7-1a014bb921bf",
+    "field": "http[0].response.data",
+    "size": 38825
+  },
+  {
+    "report_id": "62c570b3-9949-4dc5-a47d-8f373d1f6fa2",
+    "field": "http[4].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "28c26308-a7de-40ea-81c1-f4ee53625cf9",
+    "field": "http[11].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "80627f71-fd8a-4659-a58c-c86e32ec4cb3",
+    "field": "http[16].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "1a38a171-6713-4867-b0c0-2da55f80e690",
+    "field": "http[8].response.data",
+    "size": 15005
+  },
+  {
+    "report_id": "0db4d797-2d84-4398-bf93-27104053757e",
+    "field": "http[23].response.data",
+    "size": 38817
+  },
+  {
+    "report_id": "209375ce-0f6b-41e0-9ac3-6acd4ab3538a",
+    "field": "http[1].response.data",
+    "size": 639
+  },
+  {
+    "report_id": "ae8dd33a-fa03-41d0-b967-8365a16403f0",
+    "field": "http[1].response.data",
+    "size": 639
+  },
+  {
+    "report_id": "c46c6d18-beaf-4eb6-958f-6b4259706895",
+    "field": "http[1].response.data",
+    "size": 639
+  }
+]

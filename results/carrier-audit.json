@@ -1,0 +1,227 @@
+{
+  "scope": "All seven decodable httpbin carriers within the 187 selected pinned reports; not the whole upstream archive.",
+  "method": "Percent-decode once; validate Base64 including URL-safe alphabet; compare SHA-256 to the exact submitted-address HTTP response and inline script sensor entries. Classifications are close-read descriptions, not a general detector.",
+  "limits": [
+    "Response bodies are absent. Digest agreement is corroboration within archive metadata, not independent packet capture.",
+    "A matching script sensor digest is not proof that every instruction completed.",
+    "Missing target requests or sensor entries establish absence only in this acquired record.",
+    "Output field markers do not establish exact source/output equality or receipt by the original agent."
+  ],
+  "counts": {
+    "selected_reports": 187,
+    "decoded_carriers": 7,
+    "carrier_digest_matches": 5,
+    "carrier_digest_mismatches": 2,
+    "carriers_with_scripts": 5,
+    "carriers_with_matching_script": 3,
+    "oncb_target_request_records": 2,
+    "oncb_output_request_records": 1
+  },
+  "records": [
+    {
+      "report_id": "8e1afe36-ee38-44de-8f2f-de01ecc9ac17",
+      "report_url": "https://urlquery.net/report/8e1afe36-ee38-44de-8f2f-de01ecc9ac17",
+      "date": "2026-03-06T19:52:27Z",
+      "kind": "Fetch and display",
+      "cohort": "development_known_oncb",
+      "source_sha256": "24302e13defe26519ade0c3350b32b70c7213f649d6693b29a2af5f52e60f84e",
+      "decoded_bytes": 212,
+      "decoded_sha256": "babea4f92f7d3f464b9eb19f998b5c15c8bc23637bf6142a93e0ddcc3cd7a52d",
+      "carrier_field": "http[0].response.data",
+      "carrier_status": "200",
+      "reported_bytes": 51,
+      "reported_sha256": "ef494a7858a46c8ba88d20c28d8b42ef57a4ff1eccd00b13015642303e87f1d4",
+      "carrier_digest_matches": false,
+      "raw_carrier_body_present": false,
+      "submitted_scripts": 1,
+      "script_checks": [
+        {
+          "decoded_sha256": "c61d3e68458c7f7e2770a75f69d4f2b80fa0b0304c54b474eed0f81c40d4307b",
+          "matches": []
+        }
+      ],
+      "script_digest_matches": 0,
+      "target_requests": [],
+      "output_requests": [],
+      "final_dom_bytes": 90
+    },
+    {
+      "report_id": "96bedcf4-445b-42de-a43e-333ad239298c",
+      "report_url": "https://urlquery.net/report/96bedcf4-445b-42de-a43e-333ad239298c",
+      "date": "2026-03-06T19:57:22Z",
+      "kind": "Fetch and display",
+      "cohort": "development_known_oncb",
+      "source_sha256": "7a44008c8148f63d0d9ef285c3940b93735ed78641ba4c83e0554d69e42770ac",
+      "decoded_bytes": 207,
+      "decoded_sha256": "a77985c77004273aac72d9c58a4e1271b55251c55f42d79ac37a14e2e962b575",
+      "carrier_field": "http[0].response.data",
+      "carrier_status": "200",
+      "reported_bytes": 207,
+      "reported_sha256": "a77985c77004273aac72d9c58a4e1271b55251c55f42d79ac37a14e2e962b575",
+      "carrier_digest_matches": true,
+      "raw_carrier_body_present": false,
+      "submitted_scripts": 1,
+      "script_checks": [
+        {
+          "decoded_sha256": "a22a0068d809b82a2a82602b64219eade7a44fda7ec510aadd89c90160b995ea",
+          "matches": [
+            "javascript.script[0].sha256"
+          ]
+        }
+      ],
+      "script_digest_matches": 1,
+      "target_requests": [
+        {
+          "field": "http[1]",
+          "date": "2026-03-06T19:57:02.305Z",
+          "status": "200"
+        }
+      ],
+      "output_requests": [],
+      "final_dom_bytes": 43705
+    },
+    {
+      "report_id": "599b4a38-3c6c-451a-bcfc-fb7c2d3e85b8",
+      "report_url": "https://urlquery.net/report/599b4a38-3c6c-451a-bcfc-fb7c2d3e85b8",
+      "date": "2026-03-06T20:03:47Z",
+      "kind": "Fetch and relay",
+      "cohort": "development_known_oncb",
+      "source_sha256": "7cfbdc1323f329e081a03e935e69961f512b520fc1ddf74ce1c8cea873eac600",
+      "decoded_bytes": 211,
+      "decoded_sha256": "9fb73f92b61bbf7535fd0c2d21421c4394e4c40237995e46e2bb8d9a195105f7",
+      "carrier_field": "http[0].response.data",
+      "carrier_status": "404",
+      "reported_bytes": 233,
+      "reported_sha256": "12b6b36be9bd52d72587f75b3718b9d5979aaab9b1d1c27620463f330679dac5",
+      "carrier_digest_matches": false,
+      "raw_carrier_body_present": false,
+      "submitted_scripts": 1,
+      "script_checks": [
+        {
+          "decoded_sha256": "753c770978340f358e6fb1a46e362661145f989f837136464e42f57cbd29b33d",
+          "matches": []
+        }
+      ],
+      "script_digest_matches": 0,
+      "target_requests": [],
+      "output_requests": [],
+      "final_dom_bytes": 216
+    },
+    {
+      "report_id": "81699969-91c3-4454-913e-1a015b3fde47",
+      "report_url": "https://urlquery.net/report/81699969-91c3-4454-913e-1a015b3fde47",
+      "date": "2026-03-06T20:07:41Z",
+      "kind": "Fetch and relay",
+      "cohort": "development_known_oncb",
+      "source_sha256": "9783a3f57aab2614e2d65af7ff3ae5e6965ea7fb954955700aa978843de4ed3a",
+      "decoded_bytes": 183,
+      "decoded_sha256": "a59bd464f3c8f58332a19c841fcf41a58580632c164909a5ed0b227bad505e26",
+      "carrier_field": "http[1].response.data",
+      "carrier_status": "200",
+      "reported_bytes": 183,
+      "reported_sha256": "a59bd464f3c8f58332a19c841fcf41a58580632c164909a5ed0b227bad505e26",
+      "carrier_digest_matches": true,
+      "raw_carrier_body_present": false,
+      "submitted_scripts": 1,
+      "script_checks": [
+        {
+          "decoded_sha256": "486dd24b0d212cce07fdb42da16b62aeacc339802f27737676ad5dddab5a1a7c",
+          "matches": [
+            "javascript.script[0].sha256"
+          ]
+        }
+      ],
+      "script_digest_matches": 1,
+      "target_requests": [
+        {
+          "field": "http[2]",
+          "date": "2026-03-06T20:07:20.335Z",
+          "status": "200"
+        }
+      ],
+      "output_requests": [
+        {
+          "field": "http[0]",
+          "date": "2026-03-06T20:07:21.788Z",
+          "status": "200",
+          "query_characters": 1500,
+          "query_sha256": "e5da02bb560ffe5dd6c7c8f9fe0163ce9743081e07f014a7af0d8b72e7a1aa22"
+        }
+      ],
+      "final_dom_bytes": 0
+    },
+    {
+      "report_id": "d6669745-83d2-4628-82fa-87420ae6a5d7",
+      "report_url": "https://urlquery.net/report/d6669745-83d2-4628-82fa-87420ae6a5d7",
+      "date": "2026-03-11T12:05:59Z",
+      "kind": "Labor statistics table",
+      "cohort": "reserved_family_transfer",
+      "source_sha256": "5afe3ba87f09624894994e2facacbaa6bdafb7cdf5b02a83fdf6abc3dff6ea2d",
+      "decoded_bytes": 221,
+      "decoded_sha256": "f39c7004549b225e471e3edd41529450fe5ec67c795aa988c05d865d34a5097b",
+      "carrier_field": "http[0].response.data",
+      "carrier_status": "200",
+      "reported_bytes": 221,
+      "reported_sha256": "f39c7004549b225e471e3edd41529450fe5ec67c795aa988c05d865d34a5097b",
+      "carrier_digest_matches": true,
+      "raw_carrier_body_present": false,
+      "submitted_scripts": 0,
+      "script_checks": [],
+      "script_digest_matches": 0,
+      "target_requests": [],
+      "output_requests": [],
+      "final_dom_bytes": 260
+    },
+    {
+      "report_id": "4c62b534-a8e2-44d1-bddf-db92d4bf20a6",
+      "report_url": "https://urlquery.net/report/4c62b534-a8e2-44d1-bddf-db92d4bf20a6",
+      "date": "2026-03-15T13:53:35Z",
+      "kind": "Metals prices table",
+      "cohort": "reserved_family_transfer",
+      "source_sha256": "1a2faa5e4e71ef0681dd921814de9d0d5f1f8aaa5f7fa7f985304b1fa0f51341",
+      "decoded_bytes": 333,
+      "decoded_sha256": "c80fb6f81cdabc4d7dfe97b2af8ad2e6a6c46d5856934092bd96b40d040a2252",
+      "carrier_field": "http[1].response.data",
+      "carrier_status": "200",
+      "reported_bytes": 333,
+      "reported_sha256": "c80fb6f81cdabc4d7dfe97b2af8ad2e6a6c46d5856934092bd96b40d040a2252",
+      "carrier_digest_matches": true,
+      "raw_carrier_body_present": false,
+      "submitted_scripts": 0,
+      "script_checks": [],
+      "script_digest_matches": 0,
+      "target_requests": [],
+      "output_requests": [],
+      "final_dom_bytes": 372
+    },
+    {
+      "report_id": "bdf482a4-6a84-4975-b362-8a1839ff728f",
+      "report_url": "https://urlquery.net/report/bdf482a4-6a84-4975-b362-8a1839ff728f",
+      "date": "2026-09-20T00:04:40Z",
+      "kind": "Page diagnostic",
+      "cohort": "upstream_background_challenge",
+      "source_sha256": "a9f98639b9d1cf391af0f17253c8927de689ca28d37f0de596111474f30c48f9",
+      "decoded_bytes": 173,
+      "decoded_sha256": "472394abc47120dfd07a373b4302c2b0d5d68ea4d2a0655ee9e30339424e7c33",
+      "carrier_field": "http[1].response.data",
+      "carrier_status": "200",
+      "reported_bytes": 173,
+      "reported_sha256": "472394abc47120dfd07a373b4302c2b0d5d68ea4d2a0655ee9e30339424e7c33",
+      "carrier_digest_matches": true,
+      "raw_carrier_body_present": false,
+      "submitted_scripts": 1,
+      "script_checks": [
+        {
+          "decoded_sha256": "0827c238d27581d734a69b92ee187916ca1c387282c68b734cac86fb1af3cfd7",
+          "matches": [
+            "javascript.script[0].sha256"
+          ]
+        }
+      ],
+      "script_digest_matches": 1,
+      "target_requests": [],
+      "output_requests": [],
+      "final_dom_bytes": 172
+    }
+  ]
+}

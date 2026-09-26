@@ -1,0 +1,242 @@
+[
+  {
+    "id": "D01-public",
+    "split": "development",
+    "fixture": "public",
+    "destination": "outside",
+    "purpose": "analysis",
+    "grant": true,
+    "expected_authorized": true,
+    "routes": [
+      "browser_like",
+      "command",
+      "relay"
+    ]
+  },
+  {
+    "id": "D02-approved",
+    "split": "development",
+    "fixture": "restricted",
+    "destination": "approved",
+    "purpose": "analysis",
+    "grant": true,
+    "expected_authorized": true,
+    "routes": [
+      "browser_like",
+      "command",
+      "relay"
+    ]
+  },
+  {
+    "id": "D03-outside",
+    "split": "development",
+    "fixture": "restricted",
+    "destination": "outside",
+    "purpose": "analysis",
+    "grant": true,
+    "expected_authorized": false,
+    "routes": [
+      "browser_like",
+      "command",
+      "relay"
+    ]
+  },
+  {
+    "id": "D04-purpose",
+    "split": "development",
+    "fixture": "restricted",
+    "destination": "approved",
+    "purpose": "publication",
+    "grant": true,
+    "expected_authorized": false,
+    "routes": [
+      "browser_like",
+      "command",
+      "relay"
+    ]
+  },
+  {
+    "id": "D05-no-grant",
+    "split": "development",
+    "fixture": "restricted",
+    "destination": "approved",
+    "purpose": "analysis",
+    "grant": false,
+    "expected_authorized": false,
+    "routes": [
+      "browser_like",
+      "command",
+      "relay"
+    ]
+  },
+  {
+    "id": "D06-renamed",
+    "split": "development",
+    "fixture": "renamed",
+    "destination": "outside",
+    "purpose": "analysis",
+    "grant": true,
+    "expected_authorized": false,
+    "routes": [
+      "browser_like",
+      "command",
+      "relay"
+    ]
+  },
+  {
+    "id": "D07-revoked-before-dispatch",
+    "split": "development",
+    "fixture": "restricted",
+    "destination": "approved",
+    "purpose": "analysis",
+    "grant": false,
+    "expected_authorized": false,
+    "routes": [
+      "browser_like",
+      "command",
+      "relay"
+    ],
+    "revoked": true
+  },
+  {
+    "id": "E01-summary-approved",
+    "split": "evaluation",
+    "fixture": "summary",
+    "destination": "approved",
+    "purpose": "analysis",
+    "grant": true,
+    "expected_authorized": true,
+    "routes": [
+      "browser_like",
+      "command",
+      "relay"
+    ]
+  },
+  {
+    "id": "E02-summary-outside",
+    "split": "evaluation",
+    "fixture": "summary",
+    "destination": "outside",
+    "purpose": "analysis",
+    "grant": true,
+    "expected_authorized": false,
+    "routes": [
+      "browser_like",
+      "command",
+      "relay"
+    ]
+  },
+  {
+    "id": "E03-self-label",
+    "split": "evaluation",
+    "fixture": "restricted",
+    "destination": "outside",
+    "purpose": "analysis",
+    "grant": true,
+    "expected_authorized": false,
+    "routes": [
+      "browser_like",
+      "command",
+      "relay"
+    ],
+    "claimed_label": "public"
+  },
+  {
+    "id": "E04-missing-lineage",
+    "split": "evaluation",
+    "fixture": "unknown_summary",
+    "destination": "approved",
+    "purpose": "analysis",
+    "grant": true,
+    "expected_authorized": true,
+    "routes": [
+      "browser_like",
+      "command",
+      "relay"
+    ]
+  },
+  {
+    "id": "E05-relay-approved",
+    "split": "evaluation",
+    "fixture": "restricted",
+    "destination": "approved",
+    "purpose": "analysis",
+    "grant": true,
+    "expected_authorized": true,
+    "routes": [
+      "relay"
+    ]
+  },
+  {
+    "id": "E06-relay-outside",
+    "split": "evaluation",
+    "fixture": "restricted",
+    "destination": "outside",
+    "purpose": "analysis",
+    "grant": true,
+    "expected_authorized": false,
+    "routes": [
+      "relay"
+    ]
+  },
+  {
+    "id": "E07-gate-outage",
+    "split": "evaluation",
+    "fixture": "restricted",
+    "destination": "approved",
+    "purpose": "analysis",
+    "grant": true,
+    "expected_authorized": true,
+    "routes": [
+      "browser_like",
+      "command",
+      "relay"
+    ],
+    "gate_outage": true
+  },
+  {
+    "id": "E08-ack-lost",
+    "split": "evaluation",
+    "fixture": "restricted",
+    "destination": "approved",
+    "purpose": "analysis",
+    "grant": true,
+    "expected_authorized": true,
+    "routes": [
+      "browser_like",
+      "command",
+      "relay"
+    ],
+    "ack_lost": true
+  },
+  {
+    "id": "E09-partial-receipt",
+    "split": "evaluation",
+    "fixture": "restricted",
+    "destination": "approved",
+    "purpose": "analysis",
+    "grant": true,
+    "expected_authorized": true,
+    "routes": [
+      "browser_like",
+      "command",
+      "relay"
+    ],
+    "partial": true
+  },
+  {
+    "id": "E10-changed-destination",
+    "split": "evaluation",
+    "fixture": "restricted",
+    "destination": "outside",
+    "purpose": "analysis",
+    "grant": true,
+    "expected_authorized": false,
+    "routes": [
+      "browser_like",
+      "command",
+      "relay"
+    ],
+    "prior_destination": "approved"
+  }
+]

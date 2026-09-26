@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite this working research companion with the commit identifier you used."
+title: "Agent boundaries: what the records can establish"
+authors:
+  - name: "Fide AI"
+    website: "https://fideai.org"
+type: software
+repository-code: "https://github.com/FideAI/agent-boundary-investigations"
+url: "https://github.com/FideAI/agent-boundary-investigations"
+license: MIT
+abstract: "A working archive evidence audit and a separate local HTTP demonstration. Independent human review remains pending."
