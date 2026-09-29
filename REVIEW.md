@@ -1,6 +1,6 @@
 # Review status and correction record
 
-This is a public working research package. AI assistants performed the analysis, code checks and editorial review. Independent human technical review and unfamiliar-reader review remain pending. Publication of the package is not endorsement, peer review or validation of a production control.
+This is a public working research package. The companion article remains a draft. AI assistants performed the analysis, code checks and editorial review. Independent human technical review and unfamiliar-reader review remain pending. Publication of the package is not endorsement, peer review or validation of a production control.
 
 ## Corrections incorporated before this release
 

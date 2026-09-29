@@ -1,6 +1,8 @@
-# The browser said no. The upload had already happened.
+# Supporting methods: client status and recipient evidence
 
-**Local HTTP mechanism demonstration · working study**
+**Optional exploratory appendix · standalone article parked**
+
+This appendix supports a concise explanation in the URLQuery investigation. It illustrates a known engineering distinction; it does not reproduce that incident or establish the effectiveness of an AI defense. Publication as a separate Insights article is on hold pending an independent substantive result.
 
 OpenAI reported a photograph upload followed by a blocked reverse-image search. That account motivates a separate experiment: what does the sender's status establish, and what changes when an investigator can inspect the recipient?
 
@@ -47,4 +49,4 @@ Our journal establishes bytes read, not durable storage, later access or deletio
 
 ## Attribution and publication status
 
-The [OpenAI report](https://alignment.openai.com/misalignment-reports/uploading-files-to-the-internet-in-order-to-cite-them/) is the source for the historical example. Fide did not independently verify that transfer. The visual article remains a draft; the runnable demonstration and methods are public working research. See [NOTICE.md](../../NOTICE.md).
+The [OpenAI report](https://alignment.openai.com/misalignment-reports/uploading-files-to-the-internet-in-order-to-cite-them/) is the source for the historical example. Fide did not independently verify that transfer. The standalone visual article is parked. The runnable demonstration and methods remain supporting material in this public research companion. See [NOTICE.md](../../NOTICE.md).

@@ -11,6 +11,13 @@ def main():
     if sys.flags.optimize:
         raise SystemExit('Run without -O: research verifiers use assertions.')
     pins = json.loads((ROOT / 'release-manifest.json').read_text())
+    # In a Git checkout, newly tracked files must not bypass snapshot review.
+    if (ROOT / '.git').exists():
+        tracked = set(subprocess.check_output(
+            ['git', 'ls-files', '-z'], cwd=ROOT).decode().strip('\0').split('\0'))
+        expected_files = tracked - {'release-manifest.json'}
+        if set(pins) != expected_files:
+            raise SystemExit('Manifest inventory differs from tracked files; review and regenerate it.')
     for name, expected in pins.items():
         path = Path(name)
         if path.is_absolute() or '..' in path.parts:

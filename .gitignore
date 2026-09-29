@@ -6,3 +6,10 @@ __pycache__/
 .DS_Store
 # Local reconstruction contains decoded third-party programs; do not redistribute.
 results/oncb-reconstruction.json
+
+# Local credentials and editor state never belong in the release.
+.env
+.env.*
+*.pem
+*.key
+.ipynb_checkpoints/

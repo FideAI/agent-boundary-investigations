@@ -44,4 +44,4 @@ The selection originated in [Transluce's September 23 dataset](https://transluce
 
 ## Publication status
 
-The visual article remains a draft. This README and the methods are the current public entrypoints. Original source rights and attribution are described in [NOTICE.md](../../NOTICE.md).
+The visual article remains a draft. This guide is the main entry point for the public research companion. The [transfer appendix](../transfers/README.md) supplies an optional demonstration of client status versus receipt, not an additional incident finding. Original source rights and attribution are described in [NOTICE.md](../../NOTICE.md).
