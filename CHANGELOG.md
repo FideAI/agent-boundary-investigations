@@ -14,3 +14,7 @@ URLQuery is the sole planned Insights release. Reframed the repository entry poi
 ## 2026-09-29: public companion release
 
 Approved public access with existing commit attribution retained. Updated the study guides, citation title and review status to distinguish the public evidence companion from the draft URLQuery article and parked transfer article. Added the privacy review and release checklist, credential-file exclusions and a manifest inventory check. No research observations or claim judgments changed.
+
+## 2026-09-29: evidence locator correction
+
+Corrected the archive recovery entry’s methods locator to an existing section, “Seven-carrier audit and worked evidence records.” The prior locator named a nonexistent heading. No source observations or interpretations changed.

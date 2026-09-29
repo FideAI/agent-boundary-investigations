@@ -1,6 +1,6 @@
 # Snapshot provenance
 
-The initial release candidate was prepared from an explicit allowlist of the September 26, 2026 research package. No private Git history was copied. The frozen analysis scripts, cases, source inventories and experimental results are retained unchanged; repository documentation and release/reproduction helpers were added separately.
+The initial release candidate was prepared from an explicit allowlist of the September 26, 2026 research package. No private Git history was copied. The frozen analysis scripts, cases, source inventories and experimental results are retained unchanged; repository documentation and release/reproduction helpers were added separately. Later documentation and source-locator corrections are recorded in CHANGELOG.md.
 
 `original-package-manifest.json` preserves the file hashes of that earlier portable package. Its README hash describes the original package README, which the repository README supersedes; it is historical provenance, not the current integrity check. `release-manifest.json` is the manifest for the current public snapshot.
 
