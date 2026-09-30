@@ -18,3 +18,7 @@ Approved public access with existing commit attribution retained. Updated the st
 ## 2026-09-29: evidence locator correction
 
 Corrected the archive recovery entry’s methods locator to an existing section, “Seven-carrier audit and worked evidence records.” The prior locator named a nonexistent heading. No source observations or interpretations changed.
+
+## 2026-09-30: URLQuery article publication
+
+The Fide maintainer authorized publication of the visual URLQuery investigation. Added the canonical article link and updated current publication-status statements while preserving the outstanding independent-review status. The transfer demonstration remains an optional methods appendix. No source observations, experimental results or claim judgments changed.
