@@ -78,7 +78,7 @@ Separate challenges demonstrate raw-client bypass of both adapter controls, deni
 
 The local research checkout contains frozen acquisitions and source hashes. The shareable package contains derived metadata, source locators, experiment fixtures and scripts, and verifies derived-figure consistency without redistributing complete third-party reports. It reproduces the local transfer experiment independently. Reacquiring historical archive data is a separate source check; mutable metadata can change hashes.
 
-Human technical adjudication and an unfamiliar-reader test remain pending. No outside researcher has been contacted for this package. AI assistance includes analysis, coding and editorial drafting; the user retains editorial responsibility. The public-facing articles should not be marked as reviewed or published until that review is recorded.
+Human technical adjudication and an unfamiliar-reader test remain pending. No outside researcher has been contacted for this package. AI assistance includes analysis, coding and editorial drafting; the user retains editorial responsibility. The maintainer authorized publication of the URLQuery investigation on September 30, 2026 with those review limits disclosed. Publication does not mark independent technical review complete. The standalone transfer article remains parked.
 
 ## Seven-carrier audit and worked evidence records
 

@@ -2,13 +2,13 @@
 
 **Fide AI · Research companion · September 2026 · Public research companion**
 
-This repository supports **URLQuery: When a web address becomes a program**, a reconstruction of archived activity and an audit of what the records establish. Start with the [URLQuery investigation guide](studies/urlquery/README.md): findings, claims, source checks and reproduction limits for 187 selected reports and seven decoded payloads.
+This repository supports [**URLQuery: When a web address becomes a program**](https://fideai.org/insights/urlquery-when-a-web-address-becomes-a-program/), a reconstruction of archived activity and an audit of what the records establish. Start with the [URLQuery investigation guide](studies/urlquery/README.md): findings, claims, source checks and reproduction limits for 187 selected reports and seven decoded payloads.
 
 The [local transfer experiment](studies/transfers/README.md) is an **optional exploratory methods appendix**. It illustrates why a sending tool's status does not establish whether a recipient read the bytes. Its code, fixtures, observations and limitations remain inspectable, but it is not a second Insights release or a demonstrated improvement in autonomous defense. The standalone transfer article is parked pending a substantive independent result.
 
 The materials do not concern one shared historical event. Transluce discovered the URLQuery activity. OpenAI's separately published upload examples motivated the local transfer demonstration. That demonstration does not reproduce or validate the URLQuery incident. Fide claims no new attack discovery, independent actor attribution or evaluation of an AI model.
 
-**Publication and review status:** the URLQuery article is still a draft. This public repository exposes the investigation and its supporting methods; it does not announce two research results. Analysis and coding have been checked by AI assistants; independent human technical and editorial review remain pending. Successful reproduction is not peer review.
+**Publication and review status:** the Fide maintainer authorized publication of the URLQuery article on September 30, 2026. This public repository exposes its investigation and supporting methods; it does not announce two research results. Analysis, code checks and drafting used AI assistance. Independent human technical review and an unfamiliar-reader review remain pending. Successful reproduction is not peer review.
 
 ## Inspect or reproduce
 
